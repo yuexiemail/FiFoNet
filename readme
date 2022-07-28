@@ -2,9 +2,8 @@ FiFoNet: Fine-grained Target Focusing Network for Object Detection in UAV Images
 
 Abstract：Detecting objects from images captured by Unmanned Aerial Vehicles (UAVs) is a highly demanding task. It is also considered a very challenging task due to the typically cluttered background and diverse dimensions of the foreground targets, especially small object areas that contain only very limited information. Multi-scale representation learning presents a remarkable approach to recognizing small objects. However, this strategy ignores the combination of the sub-parts in an object and also suffers from the background interference in the feature fusion process. To this end, we propose a Fine-grained Target Focusing Network (FiFoNet) which can effectively select a combination of multi-scale features for an object and block background interference, which further revitalizes the differentiability of the multi-scale feature representation. Furthermore, we propose a Global-Local Context Collector (GLCC) to extract global and local contextual information and enhance low-quality representations of small objects. We evaluate the performance of the proposed FiFoNet on the challenging task of object detection in UAV images. A comparison of the experiment results on three datasets, namely VisDrone2019, UAVDT, and our VisDrone_Foggy, demonstrates the effectiveness of FiFoNet, which outperforms the ten baseline and state-of-the-art models with remarkable performance improvements. Our FiFoNet have been deployed on an edge device, NVIDIA JETSON XAVIER NX, requiring about 80 miliseconds of processing an drone-captured image.
 
-Download:
-Thin fog: Detection results, google drive;
-Median fog: Detection results, google drive;
-Thick fog: Detection results, google drive;
-Depth Map google drive.
+Please download the detection results in Foggy Scene:
+Thin fog: https://drive.google.com/file/d/1tnI796C-lolRdSTbBld8m7wz4cZ3xPsw/view?usp=sharing
+Median fog: https://drive.google.com/file/d/16V2uijlNp3Nq9VA2yYhnvQJg9qDg9m82/view?usp=sharing
+Thick fog: https://drive.google.com/file/d/18apGl7rFx47miV7Fe84O8Gmf8tTY49I2/view?usp=sharing
 
