@@ -1,0 +1,4 @@
+FiFoNet: Fine-grained Target Focusing Network for Object Detection in UAV Images
+
+Abstract：Detecting objects from images captured by Unmanned Aerial Vehicles (UAVs) is a highly demanding task. 
+It is also considered a very challenging task due to the typically cluttered background and diverse dimensions of the foreground targets, especially small object areas that contain only very limited information. 
